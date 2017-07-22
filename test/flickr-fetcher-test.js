@@ -124,7 +124,7 @@ describe('FETCH FLICKR DATA', ()=>{
             //Stubs es una herramienta importante en TDD. Nos ayudan a mantener los test corriendo rápidamente así nuestro flujo de trabajo no se hace más lento.
             //nos permite tener test consistentes para cosas que por herencia puede ser variables (como las llamadas a red).
             fakeDataFetcher = (url)=>{
-                const expectedURL = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='+apiKey+'&text=pugs&format=json&nojsoncallback=1'
+                const expectedURL = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key='+apiKey+'&text=pugs&format=json&nojsoncallback=1';
                 expect(url).to.equal(expectedURL);
                 return Promise.resolve(fakeData);
             };

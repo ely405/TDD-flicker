@@ -1,0 +1,34 @@
+{
+  "name": "flicker-photos",
+  "version": "1.0.0",
+  "description": "usa fkicker API, transforma en HTML",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ely405/TDD-flicker.git"
+  },
+  "keywords": [
+    "TDD",
+    "mocha",
+    "chai",
+    "cheerio"
+  ],
+  "author": "ely405",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ely405/TDD-flicker/issues"
+  },
+  "homepage": "https://github.com/ely405/TDD-flicker#readme"
+}
