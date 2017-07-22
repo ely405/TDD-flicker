@@ -1,0 +1,15 @@
+1) Enviar un request al API de Flickr, y obtener un montón de datos de fotos;
+2) Transformar la data en un único arreglo de objetos, cada objeto conteniendo la data que necesitamos;
+3) Convertir el arreglo de objetos en una lista HTML;
+Agregar el HTML a la página.
+	* cómo hacer los dos últimos (hacer el HTML y ponerlo en la página):
+
+		-) Puedo cambiar el DOM directamente y agregar HTML a la página usando las interfaces estandar de DOM;
+		+) Puedo usar jQuery para agregar el HTML a la página;
+		-) Puedo usar un framework como React.js o una Vista de Backbone.
+
+flicker-fetcher:
+¿Qué pasaría si alguien pasa un string en vez de un objeto?
+¿Qué debería pasar si alguien no pasa parámetros?
+¿Qué debería pasar si alguien pasa un objeto con los nombres de las propiedades errados?
+¿Qué debería pasar si alguien pasa un objeto con los nombres de propiedades correctos pero los valores no son strings?
